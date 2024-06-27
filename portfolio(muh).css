@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    background-color: white;
+    height: 110vh;
+    width: 100vh;
+
+}
+.image1{
+    margin: 20px 100px;
+   
+}
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .is{
+    color: rgb(94, 163, 94);
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-right: 60px;
+    
+  }
+  .is i:hover{
+       color: rgb(58, 136, 58) ;
+  }
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+ .cv{
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    justify-content: center;
+    position: relative;
+ } 
+ .cv hr{
+    position: absolute;
+    bottom: 10%;
+    
+ }
+ body{
+   background-color: rgb(243, 240, 235);
+   height: 1250vh;
+
+
+ }
+ .about{
+    height: 1250vh;
+    position: relative;
+    width: 100vh;
+ }
+ .about1{
+  background-color: white;
+  margin: 10px 10px;
+  position: absolute;
+  top: 0%;
+  left: 6%;
+  width: 110vh;
+  height: 1230vh;
+ }
+ .about1 span{
+    color: rgb(94, 163, 94);
+ }
+ .about2{
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+ .html{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+
+ }
+ .green{
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 89%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+   
+ }
+ .green1{
+    height: 8px;
+    width: 84%;
+    background-color: green;
+ }
+
+ .css{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 25px;
+
+ }
+ .yellow{
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 89%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+   
+ }
+ .yellow1{
+    height: 8px;
+    width: 75%;
+    background-color: yellow;
+ }
+ .about3{
+    height: 120vh;
+ }
+ .php{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 25px;
+
+ }
+ .red{
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 89%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+   
+ }
+ .red1{
+    height: 8px;
+    width: 85%;
+    background-color: red;
+ }
+ .js{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 25px;
+
+ }
+ .pink{
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 89%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+   
+ }
+ .pink1{
+    height: 8px;
+    width: 85%;
+    background-color: rgb(243, 21, 58);
+ }
+ .rjs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 25px;
+
+ }
+ .black{
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 89%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+   
+ }
+ .black1{
+    height: 8px;
+    width: 85%;
+    background-color: black;
+ }
+ .wp{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 25px;
+
+ }
+ .blue{
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 89%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+   
+ }
+ .blue1{
+    height: 8px;
+    width: 80%;
+    background-color: rgb(54, 179, 228);
+ }
+ .wdd{
+    display: flex;
+ }
+ .wdd i{
+    color: rgb(94, 163, 94) ;
+ }
+ .wdd1{
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 15%;
+ }
+ .about4{
+   position: relative;
+ }
+ 
+ .wddd i{
+   color: rgb(94, 163, 94) ;
+   position: absolute;
+   top: 50%;
+   right: 88%;
+ }
+ .card{
+   background-color:  rgb(131, 219, 131);
+   height: 450px;
+   width: 100%;
+ }
+ .card input{
+   height: 65px;
+   width: 130px;
+   margin-top: 30px;
+   margin-left: 70px;
+ }
+ .card button{
+   padding: 25px 20px;
+   border: none;
+   background-color: black;
+   color: white;
+   font-size: 15px;
+ }
+ ::placeholder{
+   font-size: 20px;
+   color: gray;
+   padding: 20px;
+   
+ }
+ .service i{
+   color: rgb(131, 219, 131) ;
+   border: 2px solid rgb(131, 219, 131) ;
+   border-radius: 50%;
+  padding: 20px;
+  margin-left: 150px;
+ }
+ .coder:hover i{
+   color: white;
+   background-color: rgb(131, 219, 131) ;
+ }
+ .app{
+   margin-top: 30px;
+ }
+ .app:hover i{
+   color: white;
+   background-color: rgb(131, 219, 131) ;
+ }
+ .search{
+   margin-top: 30px;
+ }
+ .search:hover i{
+   color: white;
+   background-color: rgb(131, 219, 131) ;
+ }
+ .writer{
+   margin-top: 30px;
+ }
+ .writer:hover i{
+   color: white;
+   background-color: rgb(131, 219, 131) ;
+ }
+ .btna{
+   color: black;
+   background-color:rgb(131, 219, 131) ;
+   border: none;
+   padding: 20px 20px;
+   font-size: 20px;
+   margin-left: 80px;
+ }
+ .btnb{
+   color: rgb(131, 219, 131) ;
+   background-color:transparent;
+   border: 1px solid rgb(131, 219, 131) ;
+   padding: 20px 20px;
+   font-size: 20px;
+ }
+ .btnb:hover{
+   background-color: rgb(131, 219, 131) ;
+   color: black;
+
+ }
+ .btnc{
+   color: rgb(131, 219, 131)  ;
+   background-color:transparent;
+   border: 1px solid rgb(131, 219, 131) ;
+   padding: 20px 30px;
+   font-size: 20px;
+   margin-left: 90px;
+   
+ }
+ .btnc:hover{
+   background-color: rgb(131, 219, 131) ;
+   color: black;
+
+ }
+ .pic{
+   margin-left: 45px;
+   margin-top: 30px;
+ }
+ /* .pichover{
+   border: 2px solid black;
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 200px;
+   height: 200px;
+   display: none;
+
+ }
+ .pic:hover .pichover{
+   border: 2px solid black;
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 200px;
+   height: 200px;
+  
+
+ } */
+ .pic1{
+   margin-left: 45px;
+ }
+
+ .pic2{
+   margin-left: 45px;
+ }
+ .test1 i{
+   color: rgb(131, 219, 131) ;
+   margin-left: 30px;
+ }
+.test2 img{
+   margin-left: 30px;
+}
+.test2{
+   display: flex;
+}
+.test3{
+   display: block;
+}
+.test3 span{
+   color: rgba(0, 0, 0, 0.5);
+}
+form input{
+   height: 50px;
+   width: 90%;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   margin-left: 20px;
+}
+form textarea{
+   height: 150px;
+   width: 90%;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   margin-left: 20px;
+   font-size: 20px;
+   color: gray;
+   padding: 20px;
+}
+
+@media (max-width: 1024px) {
+      .div0{
+         display: flex;
+      }  
+     .div1{
+      position: sticky;
+      top: 0;
+     }  
+   
+     .aboutmain{
+      display: flex;
+      justify-content: space-evenly;
+      padding-right: 70px;
+     }
+     .aboutme1{
+      display: flex;
+     }
+     
+     
+}
